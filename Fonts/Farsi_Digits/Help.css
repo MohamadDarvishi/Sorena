@@ -1,0 +1,34 @@
+/* نمونه‌ای از قرارگیری فونت استاتیک در وب سایت*/
+@font-face {
+	font-family: Sorena;
+	font-style: normal;
+	src: url('woff2/Sorena-Normal.woff2') format('woff2');	
+    font-display: fallback; 
+}
+
+@font-face {
+	font-family: Sorena-pixel;
+	font-style: normal;
+	src: url('woff2/Sorena-pixel.woff2') format('woff2');	
+    font-display: fallback; 
+}
+
+
+
+/* فعال کردن ویژگی های مختلف استایلتیک ست ها*/
+
+.Digit_Substitution_Arabic_and_English_to_Persian {
+font-feature-settings: "ss01";
+}
+
+.Reversed_Yeh {
+font-feature-settings: "ss02";
+}
+
+.Bigger_Space {
+font-feature-settings: "ss03";
+}
+
+.Better_Marks {
+font-feature-settings: "ss04";
+}
